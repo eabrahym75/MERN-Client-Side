@@ -1,9 +1,3 @@
-// ? What is reducers
-// ! Reducer is the function which accepts the state and action
-// ! our state is always going to be post so we write it as posts=[] array
-// Below code is for reference
-
-
 import { FETCH_ALL, CREATE, UPDATE, DELETE, LIKE } from '../constants/actionTypes';
 
 export default (posts = [], action) => {
@@ -22,3 +16,4 @@ export default (posts = [], action) => {
       return posts;
   }
 };
+
